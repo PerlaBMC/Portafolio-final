@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Perla Mondragón</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:50px 16px" id="home">
+    <h1 class="w3-jumbo" id="name"><b>Perla B. Mondragón</b></h1>
+    <div id="dev"><h2>Web Full Stack Developer</h2></div>
+    <img src="https://res.cloudinary.com/dujrua0vo/image/upload/v1692046978/Dise%C3%B1o_sin_t%C3%ADtulo_3_cj561x.png" style="display:block;width:30%;margin:auto;">
+    <img src="/w3images/profile_girl.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top" style="border-radius: 10px;">
+      <i class="fa fa-download"></i><a href="https://publuu.com/flip-book/216350/518216" target="_blank"> Download Resume</a>
+    </button>
+  </header>
+
+   <!--Skills-->
+   <h2 class="w3-padding-16" style="text-align: center;">My Skills</h2>  
+   <div class="w3-row w3-center  w3-padding-10 w3-section">
+     <div class="w3-quarter w3-section" id="DIV2">
+       <img src="https://www.arsys.es/blog/file/uploads/2015/03/HTML5_Logo_512.png" alt="html" style="width: 100px; height: 100px;" ><br>
+     </div>
+     <div class="w3-quarter w3-section" id="DIV2">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="css" style="width: 90px; height: 100px;" ><br> 
+     </div>
+     <div class="w3-quarter w3-section" id="DIV2">
+       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="js" style="width: 100px; height: 100px;" >
+     </div>
+     <div class="w3-quarter w3-section" id="DIV2">
+      <img src="https://www.datocms-assets.com/45470/1631110818-logo-react-js.png" alt="react" style="width: 150px; height: 100px;" ><br>
+     </div>
+     <div class="w3-quarter w3-section" id="DIV2">
+       <img src="https://midu.dev/images/tags/node.png" alt="node" style="width: 100px; height: 100px;" ><br>
+     </div>
+     <div class="w3-quarter w3-section" id="DIV2">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/2560px-MongoDB_Logo.svg.png" alt="mongo" style="width: 150px; height: 100px;" ><br>
+     </div>
+     <div class="w3-quarter w3-section" id="DIV2">
+       <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Firebase_Logo.png" alt="firebase" style="width: 160px; height: 120px;" ><br>
+      </div>
+      <div class="w3-quarter w3-section" id="DIV2">
+       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png" alt="Bootstrap_logo" style="width: 100px; height: 100px;" ><br>
+     </div>
+   </div>
+
+
+    <!-- Portfolio Section -->
+    <h2 style="text-align: center; padding-top: 20px;" id="portfolio">Mis proyectos</h2>
+    <div class="container">
+     <div class="card" style="--clr: #009688">
+         <div class="img-box">
+             <img src="https://res.cloudinary.com/dujrua0vo/image/upload/v1692318891/La_%C3%BAnica_inspiraci%C3%B3n_es_tu_cuerpo_ilhrho.png">
+         </div>
+         <div class="content">
+             <h2 style="color: Coral;">Landing Page</h2>
+             <p>
+                Sitio con intención de comunicar un producto para su venta,
+                 correspondiente al Proyecto 1.
+             </p>
+             <a href="https://glistening-semolina-bf434d.netlify.app/" target="_blank" style="background-color: coral; border-radius: 10px;">Entra aquí</a>
+         </div>
+     </div>
+     <div class="card" style="--clr: #FF3E7F">
+       <div class="img-box">
+           <img src="https://res.cloudinary.com/dujrua0vo/image/upload/v1692402261/proyecto2_qakyqq.png">
+       </div>
+                <div class="content">
+             <h2 style="color: rgb(57, 32, 199);">CRUD</h2>
+             <p>
+                Sitio con intención de comunicar un producto para su venta,
+                 correspondiente al Proyecto 1.
+             </p>
+             <a href="https://magical-starburst-9fd683.netlify.app/" target="_blank" style="background-color: rgba(16, 59, 248, 0.856); border-radius: 10px;">Entra aquí</a>
+         </div>
+     </div>
+     <div class="card" style="--clr: #FF3E7F">
+       <div class="img-box">
+           <img src="https://res.cloudinary.com/dujrua0vo/image/upload/v1692324575/p3_sinuef.png">
+       </div>
+       <div class="content">
+           <h2 style="color: orangered;">Dashboard App</h2>
+           <p>
+            Aplicación con conexión a API y presentación de datos en una interfaz.
+           </p>
+           <a href="https://stupendous-paletas-cbb2b9.netlify.app/" target="_blank" style="background-color: orangered; border-radius: 10px;">Entra aquí</a>
+       </div>
+   </div> 
+   <div class="card" style="--clr: #03A9F4">
+       <div class="img-box">
+           <img src="https://res.cloudinary.com/dujrua0vo/image/upload/v1692072024/Sin_t%C3%ADtulo_mzjt1g.png">
+       </div> 
+       <div class="content">
+           <h2 style="color: DarkGreen;">Restaurante App</h2>
+           <p>
+            Desarrollo de aplicación que cuente con la presentación de un restaurante, su menú, horarios e 
+            información de contacto. Integrando un sistema para que los clientes puedan reservar.
+           </p>
+           <a href="https://vermillion-kringle-d7133c.netlify.app/"target="_blank" style="background-color: DarkGreen; border-radius: 10px;">Entra aquí</a>
+       </div>
+     </div>
+     <div class="card" style="--clr: #03A9F4">
+       <div class="img-box">
+           <img src="https://res.cloudinary.com/dujrua0vo/image/upload/v1692293300/Proyecto_5_orv2kf.png" alt="Proyecto5">
+       </div>
+       <div class="content">
+           <h2 style="color: fuchsia;">E-commerce</h2>
+           <p>
+            Desarrollo de aplicación FULLSTACK integrando MONGO, EXPRESS, REACT Y NODEJS,
+             en el cual se comercialice un producto vía pagos online utilizando PayPal SandBox
+           </p>
+           <a href="https://iridescent-torrone-f9fa28.netlify.app/" target="_blank" style="background-color: fuchsia; border-radius: 10px;">Entra aquí</a>
+       </div>
+     </div>
+  <!-- End Portfolio Section -->
+</div>
+
+     <h2 class="w3-padding-16" style="text-align: center;">Insignias digitales</h2>  
+<div class="w3-row w3-center  w3-padding-10 w3-section">
+  <div class="w3-quarter w3-section" id="Insignias" style="order: 1; padding-top: 10px;">
+    <img src="https://res.cloudinary.com/dujrua0vo/image/upload/v1692299578/3_qeusf9.png" alt="dashboard" style="width:100%; order: 1;" ><br>
+  </div>
+  <div class="w3-quarter w3-section" id="Insignias" style="order: 2;" >
+      <img src="https://res.cloudinary.com/dujrua0vo/image/upload/v1692299575/4_psk3yr.png" alt="CRUD" style="width:100%; order: 2;" ><br> 
+  </div>
+  <div class="w3-quarter w3-section" id="Insignias" style="order: 3;">
+    <img src="https://res.cloudinary.com/dujrua0vo/image/upload/v1692299577/6_rjtfzj.png" alt="restauranteApp" style="width:100%; order: 3;" >
+  </div>
+  <div class="w3-quarter w3-section" id="Insignias" style="order: 4;">
+   <img src="https://res.cloudinary.com/dujrua0vo/image/upload/v1692299574/5_dyypmf.png" alt="eCommerce" style="width:100%; order: 4;" ><br>
+  </div>
+</div>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-12" id="about">
+    <h2 style="color: black;">Un Poco de mi</h2>
+    <hr class="w3-opacity">
+    <p style="font-size: 20px; color: black;">¡Hola! Soy Perla, una apasionada desarrolladora web Full Stack con un enfoque único: mi formación en Criminología. Mi camino profesional me ha llevado a explorar la intersección entre la tecnología y la seguridad, permitiéndome construir soluciones digitales robustas mientras aplico mis conocimientos criminológicos para garantizar la integridad y protección de datos.
+      Con sólidas habilidades en HTML, CSS, JavaScript, React y Node.js, disfruto creando experiencias web dinámicas y funcionales que satisfacen tanto a los usuarios como a los estándares de seguridad. Mi experiencia en análisis de seguridad aporta una capa adicional de conocimiento para implementar medidas eficaces en la protección de información confidencial.
+      Ya sea diseñando y desarrollando aplicaciones web atractivas o aplicando enfoques criminológicos para asegurar la integridad de proyectos digitales, mi objetivo es fusionar lo mejor de ambos mundos para ofrecer soluciones integrales y efectivas. Siempre entusiasta por aprender y mejorar, estoy emocionada por seguir contribuyendo al emocionante campo del desarrollo web y la seguridad en línea.
+      ¡Conectemos y exploremos juntos el poder de la tecnología y la seguridad!    </p>
+
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <div class="img-container">
+        <img id="foto" src="https://res.cloudinary.com/dujrua0vo/image/upload/v1691975294/evidence_orlzhi.jpg" style="width:100%">
+        <img src="https://res.cloudinary.com/dujrua0vo/image/upload/v1691975294/criminolog%C3%ADa_dlkn64.jpg" style="width:100%">
+        <img id="foto" src="https://res.cloudinary.com/dujrua0vo/image/upload/v1692147356/nadar_jsqx1f.jpg" style="width:100%">
+        <img src="https://res.cloudinary.com/dujrua0vo/image/upload/v1692147358/gym_qapyju.jpg" style="width:100%">
+      </div>
+    </div>
+
+      <div class="w3-half">
+        <div class="img-container">
+        <img  src="https://res.cloudinary.com/dujrua0vo/image/upload/v1692147357/programar_kdnj44.jpg" style="width:100%">
+        <img id="foto" src="https://res.cloudinary.com/dujrua0vo/image/upload/v1692147358/leer_lmpzr8.jpg" style="width:100%">
+        <img src="https://res.cloudinary.com/dujrua0vo/image/upload/v1692147358/movies_tdnwbh.jpg" style="width:100%">
+        <img id="foto" src="https://res.cloudinary.com/dujrua0vo/image/upload/v1692147358/68a3a694-8e0b-43e3-812f-97bee11af893_zurwxf.jpg" style="width:100%">
+      </div>
+    </div>
+    <!-- End photo grid -->
+    </div>
+    
+  <!-- End About Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contáctame</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Ciudad de México </p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +52 5951215201</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: perlabmc7@gmail.com</p>
+    </div>
+    
+   
+    <p>Envíame tus datos para cotizar</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> Enviar
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>  
+  
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">PBMC</p>
+  <!-- End footer -->
+  </footer>
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
